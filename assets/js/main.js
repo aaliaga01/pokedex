@@ -1,13 +1,12 @@
-$(document).ready function($){
-
-	$.ajax({
+$(document).ready (function($){
+		$.ajax({
 		url: 'http://pokeapi.co/api/v2/pokedex/1/',
 		type: 'GET',
 		dataType: 'JSON',
-		data: {limit: '811'},
+		data: {q:pokemon_entries},
 	})
-	.done(function(respt) {
-		console.log("respt");
+	.done(function(respuesta) {
+		console.log("respuesta");
 		console.log("success");
 	})
 	.fail(function() {
@@ -16,6 +15,6 @@ $(document).ready function($){
 	.always(function() {
 		console.log("complete");
 	});
-	
-	
-};
+
+
+});

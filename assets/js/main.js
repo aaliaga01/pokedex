@@ -23,8 +23,10 @@ $(document).ready (function(){
 
         data.forEach(function(e){
             var nombre = e.name;
-            $("#caja").append("<img class='pokeImg' src='http://img.pokemondb.net/artwork/"
-            	+ nombre + ".jpg'><p>"+ nombre +"</p></div>");
+            $("#lista-pokemones").append("<li><img class='pokeImg' src='http://img.pokemondb.net/artwork/"
+            	+ nombre + ".jpg'><p>"+ nombre +"</p><li>");
+
+            $("#caja").addClass("")
         });
     };	
 

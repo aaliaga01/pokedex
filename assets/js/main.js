@@ -35,7 +35,7 @@ $(document).ready (function(){
             $(div).append("<img class='imagen' src='http://img.pokemondb.net/artwork/"
             	+ nombre + ".jpg'>"); //se coloca la imagen dentro de cada col de bootstrap en el div creado
 
-            $(div).append("<h4>" + nombre + "</h4>")// para poner el nombre de cada pokemon
+            $(div).append("<h4>" + nombre + "</h4><div><img src='assets/icon/valentines-heart.png'><img src='assets/icon/pokeball_gray.png'><img src='assets/icon/data.png'></div> ")// para poner el nombre de cada pokemon
         });
     };	
 

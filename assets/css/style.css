@@ -1,6 +1,13 @@
-
+@font-face {
+font-family: Flexo;
+src: url(../font/Flexo-Light.otf);
+}
 
 .imagen{
 	width: 90%;
 	height: 40vh;
+}
+
+body{
+	font-family: Flexo, Times;
 }

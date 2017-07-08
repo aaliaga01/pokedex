@@ -4,7 +4,7 @@ $(document).ready (function(){
 		url: 'http://pokeapi.co/api/v2/pokemon',
 		type: 'GET',
 		dataType: 'JSON',
-		data: {'limit': '6'},
+		data: {'limit': '811'},
 	})
 	.done(function(r) {
 		mostrar(r.results);
@@ -45,10 +45,10 @@ $(document).ready (function(){
 $(document).ready (function(){
 
 	$.ajax({
-		url: 'http://pokeapi.co/api/v2/pokemon',
+		url: 'http://http://pokeapi.co/api/v2/pokemon-species/',
 		type: 'GET',
 		dataType: 'JSON',
-		data: {'limit': '6'},
+		data: {'limit': '811'},
 	})
 	.done(function(r) {
 		mostrar(r.results);
